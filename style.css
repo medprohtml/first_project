@@ -1,0 +1,292 @@
+body{
+   
+    background-color: #c078a5;
+background-image: linear-gradient(225deg, #c078a5 0%, #1a191b 50%, #2B86C5 100%);
+
+    background: linear-gradient(top );
+    color: #fff;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    align-items: center;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.526);
+    
+}
+.nav{
+    margin-left: -50px;
+    text-decoration: none;
+   
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}
+.nav a{
+    margin-left: 10px;
+    text-decoration: none;
+    color: #ffffffc2;
+}
+.signup{
+    display: flex;
+    position: relative;
+    margin-right: 30px;
+}
+.log{
+position: absolute;
+left: 50px;
+top: 25%;
+font-size: 30px;
+}
+.body{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.part1,.part2{
+    
+    width: 45%;
+    color: black;
+    overflow: hidden;
+    margin-top: 50px;
+}
+.p1{
+    color: #fff;
+     font-size: 65px;
+     border-bottom: 2px solid rgba(255, 255, 255, 0.564);
+     padding-bottom: 10px;
+}
+.sec {
+    display: flex;
+    justify-content: space-between;
+}
+.sec p{
+color: rgba(255, 255, 255, 0.712);
+margin-top: -40px;
+}
+.part2{
+ 
+    position: relative;
+    background: url("pexels-anna-tarazevich-5775937.jpg");
+    background-position: center;
+    background-size: cover;
+    border-radius: 13px;
+
+}
+.span{
+    background: black;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    border-radius: 0px 20px 0px 0;
+    transform: rotate(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1{
+    background-color: #ffffffd9;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.d2{
+    background: transparent;
+    width: 7px;
+    height: 7px;
+    border: 2px solid rgba(255, 255, 255, 0.679);
+    border-radius: 100%; 
+    margin-left: 4px;
+
+}
+.section{
+    width: 70px;
+    overflow: hidden;
+    margin-left: 30px;
+}
+.p{
+    font-size: 20px;
+}
+.serch{
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    bottom: 40px;
+    display: flex;
+    justify-content: center;
+    
+   
+
+
+}
+.se{
+    width: 80%;
+    height: 30px;
+    background-color: transparent;
+    position: relative;
+}
+.se input{
+    width: 100%;
+    height: 30px;
+    background: transparent;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border: 1.5px solid rgba(30, 29, 29, 0.788);
+    border-radius: 20px;
+    
+}
+.se input::placeholder{
+    color: black;
+    font-size: 16px;
+}
+.i1{
+    position: absolute;
+    left: 60vh;
+    top: 10px;
+    color: black;
+    font-size: 30px;
+}
+.body2{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.item1{
+    width: 200px;
+   
+
+}
+
+.playp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+
+}
+.plp{
+    margin-left: 10px;
+    width: 100px;
+    color: rgba(255, 255, 255, 0.784);
+}
+.play{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+      border-radius: 100%;
+
+}
+.play i{
+    color: #333;
+     font-size: 24px;
+}
+
+.web{
+    margin-left: 20px;
+    margin-top: 3px;
+   width: max-content;
+   padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.731);
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    
+}
+.card2,.card3,.card4{
+    
+    width: 250px;
+    height: 200px;
+    position: relative;
+    border-radius: 15px;
+    
+    
+}
+.card2{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    
+}
+.card2:hover,.card3:hover,.card4:hover{
+    box-shadow: 1px 1px 20px #ffffffb1;
+    cursor: pointer;
+    scale: 1.01;
+    transition: all 0.5s ease-out;
+}
+.card3{
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    
+    
+}
+.card4{
+    background-color: #21D4FD;
+    background-image: linear-gradient(19deg, #21D4FD 0%, #5a5aad 100%);
+    
+}
+.fich1{
+    font-size: 22px ;
+    color: #1a191b;
+    margin-left: 20px;
+}
+.fichi{
+    position: absolute;
+    top: 20vh;
+    left: 20px;
+    font-size: 40px;
+    color: #1a191b;
+}
+.fich2{
+    margin-top: 20vh;
+    color: #1a191b;
+    font-size: 30px;
+    margin-left: 10px;
+}
+.fichi2{
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    transform: rotate(45deg);
+    font-size: 60px;
+    color: #1a191b;
+   
+}
+.card4{
+     
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+}
+.fich3{
+margin-left: 10px;
+margin-top: 25px;
+font-size: 23px;
+color: #1a191b;
+
+}
+.fichi3{
+    position: relative;
+    color: #1a191b;
+    font-size: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+.fi3{
+    position: absolute;
+    top: -30px;
+    left: 60px;
+}
